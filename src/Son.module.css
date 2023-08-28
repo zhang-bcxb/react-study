@@ -1,0 +1,12 @@
+/*该样式只针对Son组件生效*/
+.son-one {
+    background-color: #61dafb;
+}
+
+.son-two {
+    background-color: deeppink;
+}
+
+.son-three {
+    font-size: 60px;
+}
