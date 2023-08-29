@@ -8,7 +8,6 @@ class Son extends React.PureComponent {
   render() {
     return <div>
       <h1>我是子组件【Son】</h1>
-
     </div>
   }
 }

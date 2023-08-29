@@ -3,19 +3,29 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// 引入路由
+import {BrowserRouter, HashRouter} from 'react-router-dom'
+
+import {Provider} from 'react-redux'
+import store from './store'
+
+/*import store from './store'
+// 修改之后会自动触发该监听，代价会非常大
+store.subscribe(() => {
+  // 重新渲染页面
+  root.render(
+      <App/>
+  );
+})*/
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <App/>
-
-    /*<Provider store={store}>
+    <Provider store={store}>
       <App/>
-    </Provider>*/
+    </Provider>
 
     /*<HashRouter>
-      <Provider store={store}>
-        <App/>
-      </Provider>
+      <App/>
     </HashRouter>*/
 
     /*<React.StrictMode>
