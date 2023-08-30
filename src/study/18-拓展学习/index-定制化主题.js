@@ -3,19 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// 定制化主题
+import {ConfigProvider} from "antd";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <App/>
-
-    /*<ConfigProvider theme={{
+    <ConfigProvider theme={{
       token: {
         // Seed Token，影响范围大
         colorPrimary: 'pink',
       },
     }}>
       <App/>
-    </ConfigProvider>*/
+    </ConfigProvider>
 
     /*<Provider store={store}>
       <App/>

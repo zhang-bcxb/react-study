@@ -25,5 +25,19 @@ npm run start
 ```
 React 中文文档：https://react.docschina.org/
 React 创建文档：https://cra.docschina.org/
-Ant Design：https://ant-design.antgroup.com/docs/react/introduce-cn
 ```
+
+- 拓展学习
+
+```
+Ant Design：https://ant-design.antgroup.com/docs/react/introduce-cn
+安装：npm install antd --save
+
+UmiJS：https://umijs.org/
+```
+
+![umi](doc/umi.png)
+
+## 学习知识图
+
+![umi](doc/知识全览.png)
